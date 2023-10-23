@@ -169,6 +169,11 @@ body{
     font-size: 3rem;
 }
 
+.qualityimg{
+    height: 69vh;
+    width: 35vw;
+}
+
 @media screen and (max-width: 1200px) {
     .navtop{
         visibility: hidden;
@@ -242,7 +247,23 @@ body{
     .auther{
         width:25vw !important
     }
+
+    #quality{
+        height: 200vh !important;
+        width:100vw
+    }
     .qualityicon{
         overflow: auto;
     }
+    .qualityinner{
+        width: 90vw !important;
+        margin-left: 6px;
+        height: 104vh !important;
+    }
+
+    .qualityimg{
+        height: 53vh;
+        width: 82vw;
+    }
+    
 }
