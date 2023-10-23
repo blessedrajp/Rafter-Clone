@@ -1,0 +1,248 @@
+*{
+    scroll-behavior: smooth;
+    font-family: 'Merriweather', serif;
+    /* font-family: 'Nunito Sans', sans-serif; */
+
+}
+body{
+    overflow-x: hidden;
+}
+
+
+
+
+.navtop{
+    background-color: rgb(209, 55, 24);
+}
+
+ .btop button {
+    position: relative;
+    background-color: rgb(230, 34, 77);
+    border-radius: 5px;
+    padding: 20px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height: 77px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+    left: 12px;
+    width: 13.8rem;
+}
+
+
+.btop  button::before {
+    content: "";
+    background-color: rgb(248, 50, 93);
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 700ms ease-in-out;
+    display: inline-block;
+  }
+  
+  .btop button:hover::before {
+    width: 100%;
+  }
+
+.nav-link{
+    color: black !important;
+}
+
+
+.right-top{
+    margin-left: 30rem;
+    font-size:1.5rem
+}
+.banner-top{
+    background-color: #102039;
+    height:11vh;
+    width:80vw;
+    margin-left:10rem
+}
+
+#carouselExampleIndicators{
+    z-index: -1;
+    position:relative;
+    bottom: 6rem;
+}
+.bimg1{
+    height:120vh
+}
+.banner-details p{
+    font-size: 5vh;
+}
+.banner-details h1{
+    width: 50vw;
+    font-size: 10vh;
+    font-weight: bolder;
+}
+.afdata p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.afdata-left{
+    transition: 0.5s ease-in-out;
+}
+.afdata-left:hover{
+    background-color: red !important;
+    color: white;
+}
+
+.abtimg{
+    height:85vh
+}
+.innerdetails-abt{
+    background-color: red;
+    height:20vh;
+    width:30vw;
+    position: absolute;
+    bottom:0;
+    color: white;
+       
+}
+.abtposition{
+    padding-left: 10em;
+}
+.abt-right h1{
+    font-weight: bolder;
+    color: #102039;
+    font-size: 48px;   
+}
+.abt-right p{
+    font-family: 'Nunito Sans', sans-serif;
+    width:85%;
+    font-size: 1.1rem;
+}
+
+.innerabout1{
+
+}
+.innerabout1 h5{
+    width:15rem;
+    padding-left: 1rem;
+    font-weight: bolder;
+}
+.innerabout1 i{
+    font-size: 3rem;
+    color: red;
+}
+.qualityiconbox{
+    height: 10rem;
+    width: 10rem;
+    background: white;
+    margin-left: 1rem;
+    padding: 2rem;
+    border-radius: 10px;
+    transition: .5s ease-in;
+}
+.qualityiconbox h6{
+    color: #102039;;
+}
+.qualityiconbox i{
+    color: red;
+}
+
+.qualityiconbox:hover{
+
+    background-color: red;
+    color: white;
+    box-shadow: -26px -41px 4px -17px red;
+
+    .qualityiconbox i{
+        color: white !important;
+    }
+
+    .qualityiconbox h6{
+        color: white !important;
+    }
+}
+
+.qualityiconbox i{
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .navtop{
+        visibility: hidden;
+        height: 0 !important;
+    }
+    #carouselExampleIndicators{
+        z-index: -1;
+        position:relative;
+        bottom: 4rem;
+    }
+    .banner-top{
+        background-color: #102039;
+        height:12vh;
+        width:80vw;
+        margin-left:10rem;
+        visibility: hidden;
+        
+    }
+    .btop button {
+        visibility: hidden;
+    }
+    .banner-details{
+        position: absolute;
+        top:10rem !important;
+        left:1rem !important
+    }
+    .bimg1{
+        height:100vh
+    }
+    .banner-details p{
+        font-size: 4vh;
+    }
+    .banner-details h1{
+        width: 100vw;
+        font-size: 6vh;
+    }
+    .afterbanner{
+        margin-top: 7rem;
+    }
+    .innerdetails-abt{
+        background-color: red;
+        height:17vh;
+        width:80vw;
+        position: absolute;
+        bottom:0;
+        color: white;
+           
+    }
+    .abtposition{
+        padding-left: 0em;
+    }
+    .abt-right{
+        padding-left: 2rem;
+    }
+    .abt-right h1{
+        font-weight: bolder;
+        color: #102039;
+        font-size: 40px;   
+    }
+    .innerabout1{
+        display: block !important;
+    }
+
+    .iiabout1{
+        padding-left: 1.4rem;
+        padding-bottom: 1.5rem;
+    }
+    .iiabout2{
+        
+    }
+    .auther{
+        width:25vw !important
+    }
+    .qualityicon{
+        overflow: auto;
+    }
+}
