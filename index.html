@@ -10,7 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito+Sans:opsz,wght@6..12,200&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b331d0e423.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="assets/css/hover.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/Images/headlogo.jpg">
     <title>Rafter &#8211; Roofing Services WordPress Theme</title>
   </head>
   <body onload="load()">
@@ -305,47 +307,67 @@
     <section id="quality" style="background-color: #102039; height:150vh;width:100vw">
       <div class="container">
         <div class="row ">
-          <div class="col mt-5">
+          <div class="col mt-2">
             <h1 class="mt-5" style="color: white;" >We’r Prodviding Quality Roofing Services</h1>
           </div>
-          <div class="col mt-5">
+          <div class="col mt-2">
             <p class="mt-5 pt-1" style="color: white;font-family: 'Nunito Sans', sans-serif;">Trage agile frameworks to provide a robust synopsis for high level overviews. Iterative approachesTrage agile frameworks to provide a robust synopsis for high level overviews. Iterative</p>
           </div>
 
           </div>
         
 
-          <div class="qualityicon d-flex mt-5 ">
-            <div class="qualityiconbox text-center">
-              <i class="fa-brands fa-autoprefixer"></i>
-              <h6 class="mt-3" >Roof Installation</h6>
+          <div class="qualityicon d-flex mt-5 " >
+            <div class="qualityiconbox text-center" data-aos="flip-left">
+              <i class="fa-brands fa-autoprefixer" id="qicon"></i>
+              <h6 class="mt-3 qdetail" >Roof Installation</h6>
             </div>
-            <div class="qualityiconbox text-center">
-              <i class="fa-solid fa-house-crack"></i>
-              <h6 class="mt-3" >Roof Cornering</h6>
+            <div class="qualityiconbox text-center" data-aos="flip-left">
+              <i class="fa-solid fa-house-crack" id="qicon"></i>
+              <h6 class="mt-3 qdetail" >Roof Cornering</h6>
             </div>
-            <div class="qualityiconbox text-center">
-              <i class="fa-solid fa-map"></i>
-              <h6 class="mt-3" >Roof Frame Design</h6>
+            <div class="qualityiconbox text-center" data-aos="flip-left">
+              <i class="fa-solid fa-map" id="qicon"></i>
+              <h6 class="mt-3 qdetail" >Roof Frame Design</h6>
             </div>
-            <div class="qualityiconbox text-center">
-              <i class="fa-solid fa-square-caret-up"></i>
-              <h6 class="mt-3">Roof Layer Fixing</h6>
+            <div class="qualityiconbox text-center" data-aos="flip-right">
+              <i class="fa-solid fa-square-caret-up" id="qicon"></i>
+              <h6 class="mt-3 qdetail">Roof Layer Fixing</h6>
             </div>
-            <div class="qualityiconbox text-center">
-              <i class="fa-solid fa-grip"></i>
-              <h6 class="mt-3" >Roof damag Repair</h6>
+            <div class="qualityiconbox text-center" data-aos="flip-right">
+              <i class="fa-solid fa-grip" id="qicon"></i>
+              <h6 class="mt-3 qdetail" >Roof damag Repair</h6>
             </div>
-            <div class="qualityiconbox text-center">
-              <i class="fa-solid fa-building"></i>
-              <h6 class="mt-3" style="color: #102039;">Roof Siding Corner</h6>
+            <div class="qualityiconbox text-center" data-aos="flip-right">
+              <i class="fa-solid fa-building" id="qicon"></i>
+              <h6 class="mt-3 qdetail" style="color: #102039;">Roof Siding Corner</h6>
             </div>
           </div>
         
           <div class="row mt-5 qualityinner" style="background: white; height:70vh;width:71vw;border-radius: 5px;">
               <div class="col mt-5 pl-5">
-                <h4>Roof Installation</h4>
-                <p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae…</p>
+                <h2 style="font-weight: bolder;">Roof Installation</h2>
+                <p class="mt-2">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae…</p>
+                <h5 class="mt-5" style="color: red; font-weight: bolder;">Our Roof Installation Include :</h5>
+                <div class="row mt-4">
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                    <p style="color: #102039;font-weight: bolder;"><i class="fa-regular fa-circle-check pr-2" style="color: red;"></i>Residential Roofing</p>
+                    <p style="color: #102039;font-weight: bolder;"><i class="fa-regular fa-circle-check pr-2" style="color: red;"></i>Damage Roofing Repair</p>
+                    <p style="color: #102039;font-weight: bolder;"><i class="fa-regular fa-circle-check pr-2" style="color: red;"></i>Build Roof Standard</p>
+
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                    <p style="color: #102039;font-weight: bolder;"><i class="fa-regular fa-circle-check pr-2" style="color: red;"></i>Commercial Roofing</p>
+                    <p style="color: #102039;font-weight: bolder;"><i class="fa-regular fa-circle-check pr-2" style="color: red;"></i>Window Installation</p>
+                    <p style="color: #102039;font-weight: bolder;"><i class="fa-regular fa-circle-check pr-2" style="color: red;"></i>Mission statement</p>
+
+                  </div>
+                  <div class="col mt-1 btop2">
+                    <button>
+                      Read More <i class="fa-solid fa-arrow-right-long" style="color: white;"></i>
+                    </button>
+                  </div>
+                </div>
               </div>
               <div class="col">
                 <img src="assets/images/work-big-3.jpg" class="qualityimg" alt="">
@@ -356,6 +378,174 @@
         
       </div>
     </section>
+
+    <section id="explore" class="mt-5">
+      <div class="extop text-center">
+        <h1 style="font-weight: bolder;">Explore Latest Works</h1>
+        <p class="pt-2">Trage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate</p>
+        
+        <div class="exbuttons mt-5">
+          <button class="exbut" id="All" onclick="alll()">All</button>
+          <button class="exbut" id="commerse" onclick="Commerc()">Commercial</button>
+          <button class="exbut" id="repar" onclick="Repair()">Repair</button>
+          <button class="exbut" id="resident" onclick="Residential()">Residential</button>
+        </div>
+      </div>
+
+      <div class="container-Fluid pl-5 mt-5">
+        <div class="eximgbuild" >
+          <div class="row" >
+            <div class="col exhovr" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom" >
+            <img class="eximg" style="position: relative;" id="img1" src="assets/images/work-big-1.jpg" alt="">
+            <div class="eximgmiddle">
+              <i class="fa-solid fa-circle-plus" id="eximgicon" style="color: red; font-size: 2rem;"></i>
+            </div>  
+            <div class="exbot">
+              <h5 id="eximgtit">Modern Pattern Style</h5>
+            </div>
+            </div>
+            <div class="col exhovr " data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom" >
+              <img class="eximg" style="" id="img2" src="assets/images/work-big-2.jpg" alt="">
+              <div class="eximgmiddle">
+                <i class="fa-solid fa-circle-plus" id="eximgicon2" style="color: red; font-size: 2rem;"></i>
+              </div> 
+              <div class="exbot">
+                <h5 id="eximgtit2">Modern Pattern Style</h5>
+              </div> 
+
+            </div>
+            <div class="col exhovr" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom" >
+              <img class="eximg" id="img3" src="assets/images/work-big-3.jpg" alt="">
+              <div class="eximgmiddle">
+                <i class="fa-solid fa-circle-plus" id="eximgicon3" style="color: red; font-size: 2rem;"></i>
+              </div>
+              <div class="exbot">
+                <h5 id="eximgtit3">Modern Pattern Style</h5>
+              </div>  
+
+            </div>
+            <div class="col exhovr" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom">
+              <img class="eximg mt-4" id="img4" src="assets/images/work-big-4.jpg" alt="">
+              <div class="eximgmiddle">
+                <i class="fa-solid fa-circle-plus" id="eximgicon4" style="color: red; font-size: 2rem;"></i>
+              </div>  
+              <div class="exbot">
+                <h5 id="eximgtit4">Modern Pattern Style</h5>
+              </div>
+
+            </div>
+            <div class="col exhovr" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom">
+              <img class="eximg mt-4" id="img5" src="assets/images/work-big-5.jpg" alt="">
+              <div class="eximgmiddle">
+                <i class="fa-solid fa-circle-plus" id="eximgicon5" style="color: red; font-size: 2rem;"></i>
+              </div> 
+              <div class="exbot">
+                <h5 id="eximgtit5">Modern Pattern Style</h5>
+              </div> 
+
+            </div>
+            <div class="col exhovr" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom">
+              <img class="eximg mt-4" id="img6"  src="assets/images/work-big-6.jpg" alt="">
+              <div class="eximgmiddle">
+                <i class="fa-solid fa-circle-plus" id="eximgicon6" style="color: red; font-size: 2rem;"></i>
+              </div> 
+              <div class="exbot">
+                <h5 id="eximgtit6">Modern Pattern Style</h5>
+              </div> 
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="awards" class="pl-5">
+      <div class="container-Fluid">
+        <div class="row  pt-5">
+          <div class="col awardtit ">
+            <h4 class="mt-5 pt-3" style="color: red; font-family: 'Nunito Sans', sans-serif; font-weight: bolder;">AWARDS & RECONIZATION</h4>
+            <h1 class="mt-4" style="color: #102039; font-weight: bolder;">Quality Improvement Awards of our Company.</h1>
+            <p class="mt-5" style=" font-family: 'Nunito Sans', sans-serif; font-weight: bolder;">Welcome, Here, you can find answers to some of the most common questions we receive about our roofing services. If you have a question that is not answered here, please feel free to contact us.</p>
+
+            <div class="awardsimgs d-flex-grow pl-5 mt-5 ">
+              <img src="assets/images/awards1.png" class="pl-2 pt-3" alt="">
+              <img src="assets/images/awards2.png" class="pl-2 pt-3" alt="">
+              <img src="assets/images/awards3.png" class="pl-2 pt-3" alt="">
+
+            </div>
+
+          </div>
+
+          <div class="col book">
+            <div class="booking-top text-center ">
+              <h6 style="color: white;">Book Appointment</h6>
+              <h3 style="color: white;">Book Roofing Inspection</h3>
+            </div>
+            <form action="" class="bookform pb-3">
+              <div class="row icon-position">
+                <div class="col nameip">
+                  <input type="text" class="mt-4  awardipbox" style=" border:2px grey solid" placeholder="Name">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="col numip">
+                  <input type="text" class="mt-4  awardipbox" style=" border:2px grey solid" placeholder="Number">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+              </div>
+
+              <div class="row icon-position">
+                <div class="col nameip">
+                  <input type="text" class="mt-4  awardipbox" style=" border:2px grey solid" placeholder="Email">
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div class="col numip">
+                  <input type="text" class="mt-4  awardipbox" style=" border:2px grey solid" placeholder="Location">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+              </div>
+
+              <div class="row icon-position">
+                <div class="col nameip">
+                  <input type="text" class="mt-4  awardipbox" style=" border:2px grey solid" placeholder="Choose Time">
+                  <i class="fa-regular fa-clock"></i>
+                </div>
+                <div class="col numip">
+                  <input type="text" class="mt-4  awardipbox" style=" border:2px grey solid" placeholder="Select Date">
+                  <i class="fa-regular fa-calendar-days"></i>
+                </div>
+              </div>
+
+              <div class="awmesg">
+                <textarea name="" id="" class="amsg"></textarea>
+              </div>
+
+              <div class="col pl-5 btop3">
+                <button>
+                Submit
+                </button>
+        </div>
+            </form>
+          </div>
+            
+          </div>
+      </div>
+    </section>
+
+
+    <section id="viedio">
+
+    </section>
+
+
 
     
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -368,6 +558,10 @@
     
   </body>
 </html>
+
+<script src="assets/javaScript/explore.js"></script>
+
+
 
 <script>
 
@@ -407,7 +601,7 @@
 
       const load = () => {
          
-         run1(text1, 0, 1377, 7000);
+         run1(text1, 0, 1377, 10000);
          
 
       }

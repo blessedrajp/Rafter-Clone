@@ -17,7 +17,7 @@ body{
 
  .btop button {
     position: relative;
-    background-color: rgb(230, 34, 77);
+    background-color: red;
     border-radius: 5px;
     padding: 20px;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@ body{
 
 .btop  button::before {
     content: "";
-    background-color: rgb(248, 50, 93);
+    background-color: #102039;
     width: 0;
     height: 100%;
     position: absolute;
@@ -49,6 +49,7 @@ body{
   
   .btop button:hover::before {
     width: 100%;
+    background-color: #102039;
   }
 
 .nav-link{
@@ -143,26 +144,26 @@ body{
     border-radius: 10px;
     transition: .5s ease-in;
 }
-.qualityiconbox h6{
-    color: #102039;;
+.qdetail{
+    color: #102039;
 }
-.qualityiconbox i{
+#qicon{
     color: red;
 }
 
 .qualityiconbox:hover{
 
     background-color: red;
-    color: white;
-    box-shadow: -26px -41px 4px -17px red;
+    box-shadow: -12px -27px 4px -4px rgb(245, 243, 243);
 
-    .qualityiconbox i{
-        color: white !important;
+    #qicon{
+        color: white;
     }
+    .qdetail{
+        color: white;
+    }
+    
 
-    .qualityiconbox h6{
-        color: white !important;
-    }
 }
 
 .qualityiconbox i{
@@ -174,6 +175,215 @@ body{
     width: 35vw;
 }
 
+
+.btop2 button {
+    position: relative;
+    background-color: red;
+    border-radius: 5px;
+    padding: 12px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height: 57px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+    left: 0;
+    width: 10.8rem;
+}
+
+
+.btop2  button::before {
+    content: "";
+    background-color: #102039;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 700ms ease-in-out;
+    display: inline-block;
+  }
+  
+  .btop2 button:hover::before {
+    width: 100%;
+    background-color: #102039;
+  }
+
+  .extop p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2rem;
+    width:40%;
+    margin-left: 29rem;
+  }
+
+  .exbut{
+    padding: 12px 25px;
+    border: 1px solid;
+    margin: 0px 10px;
+    background-color: white;
+    font-weight: bolder;
+    
+  }
+
+  .exbut:hover{
+   
+    box-shadow: -20px -30px 4px -14px red;
+    background-color: red;
+    border:#fff 1px solid
+  }
+
+  .eximg{
+    height:45vh;
+    width:27vw;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    display: block;
+  }
+
+  .eximgmiddle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .exbot{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    color: #102039;
+    font-weight: bolder;
+  }
+
+  .exhovr:hover .eximg {
+    opacity: 0.5;
+    /* filter: blur(); */
+  }
+  .exhovr:hover .eximgmiddle{
+    opacity: 1; 
+  }
+  .exhovr:hover .exbot{
+    opacity: 1; 
+  }
+
+  #awards{
+    margin-top: 2rem;
+  }
+  .awardtit h1{
+    width:70%
+  }
+
+  .booking-top {
+    padding: 54px 0px 37px 12px;
+    clip-path: polygon(50% 0%, 100% 50%, 100% 100%, 0 100%, 0 50%);
+    background-color: red;
+    width: 87%;
+    margin-left: 3rem;
+
+}
+
+
+.bookform{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    width: 87%;
+    margin-left: 3rem;
+    height:30rem
+}
+
+.icon-position{
+    position: relative;
+}
+.nameip{
+    margin-left: 3rem;
+}
+.numip{
+
+}
+.awardipbox{
+    padding: 0.5rem;
+    padding-right: 1.2rem;
+}
+
+.nameip i{
+    position: absolute;
+    right: 19%;
+    top: 56%;
+    color: grey;
+}
+.numip i{
+    position: absolute;
+    right: 19%;
+    top: 56%;
+    color: grey;
+}
+.awmesg .amsg{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    border: 2px solid grey;
+    width: 34.3rem;
+    height: 6rem;
+}
+
+
+.btop3 button {
+    position: relative;
+    background-color: red;
+    border-radius: 5px;
+    padding: 12px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height: 58px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+    left: 0px;
+    width: 34.5rem;
+    top: 1rem;
+}
+
+
+.btop3  button::before {
+    content: "";
+    background-color: #102039;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 700ms ease-in-out;
+    display: inline-block;
+  }
+  
+  .btop3 button:hover::before {
+    width: 100%;
+    background-color: #102039;
+  }
+
+
+ 
+/* hover eximg */
+
+
+
+
+  /* media */
 @media screen and (max-width: 1200px) {
     .navtop{
         visibility: hidden;
@@ -249,7 +459,7 @@ body{
     }
 
     #quality{
-        height: 200vh !important;
+        height: 230vh !important;
         width:100vw
     }
     .qualityicon{
@@ -258,12 +468,158 @@ body{
     .qualityinner{
         width: 90vw !important;
         margin-left: 6px;
-        height: 104vh !important;
+        height: 135vh !important;
     }
 
     .qualityimg{
-        height: 53vh;
+        height: 55vh;
         width: 82vw;
     }
+    .qualityinner h5{
+        padding-right: 1rem;
+    font-size: 20px;
+    }
+    .btop2 button {
+        position: relative;
+        background-color: red;
+        border-radius: 5px;
+        padding: 12px;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        height: 49px;
+        color: #fff;
+        border: none;
+        font-size: 20px;
+        transition: all .3s ease-in-out;
+        z-index: 1;
+        overflow: hidden;
+        left: 0;
+        width: 10.8rem;
+        bottom: 6px;
+    }
+    .extop p{
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 1.1rem;
+        width:90%;
+        margin-left: 1rem;
+      }
+
+      .eximg{
+        height: 45vh;
+        width: 85vw;
+        opacity: 1;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        display: block;
+        margin-left: -1rem;
+        margin-bottom: 2rem;
+      }
+
+      .exbot{
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 85%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        color: #102039;
+        font-weight: bolder;
+      }
+
+      .exbut{
+        padding: 8px 6px;
+        border: 1px solid;
+        margin: 1px 3px;
+        background-color: white;
+        font-weight: bolder;
+        transition: 1s ease-in-out;
+      }
+      .awardsimgs{
+
+      }
+
+      #awards{
+        margin-top: 1rem;
+      }
+      .book{
+        margin-left: -4.5rem;
+    margin-top: 4rem;
+      }
+
+      .booking-top {
+        padding: 43px 0px 11px 15px;
+        clip-path: polygon(50% 0%, 100% 50%, 100% 100%, 0 100%, 0 50%);
+        background-color: red;
+        width: 100%;
+        margin-left: 3rem;
     
+    }
+    
+    .bookform{
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+        width: 99%;
+        margin-left: 3rem;
+        height:85vh
+    }
+    
+    .icon-position{
+        position: relative;
+    }
+    .nameip{
+        margin-left: 3rem;
+    }
+    .numip{
+        margin-left: 3rem;
+    }
+    .awardipbox{
+        padding: 0.5rem;
+        padding-right: 1.2rem;
+    }
+    
+    .nameip i{
+        position: absolute;
+        right: 26%;
+        top: 56%;
+        color: grey;
+    }
+    .numip i{
+        position: absolute;
+        right: 26%;
+        top: 56%;
+        color: grey;
+    }
+    .awmesg .amsg{
+        margin-left: 3rem;
+        margin-top: 2rem;
+        border: 2px solid grey;
+        width: 15.3rem;
+        height: 5rem;
+    }
+
+    .btop3 button {
+        position: relative;
+        background-color: red;
+        border-radius: 5px;
+        padding: 12px;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        height: 58px;
+        color: #fff;
+        border: none;
+        font-size: 20px;
+        transition: all .3s ease-in-out;
+        z-index: 1;
+        overflow: hidden;
+        left: 0px;
+        width: 15.5rem;
+        top: 2rem;
+    }
+    .awardtit h1{
+        width:90%
+      }
+
 }
+    
+    
